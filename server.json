@@ -1,0 +1,14 @@
+{
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "name": "net.cryptoadvertising/ads",
+    "title": "CryptoAd Network",
+    "description": "Agent-native crypto ads: reach real crypto users from $0.05, paid in USDC via x402. No account.",
+    "version": "1.0.0",
+    "websiteUrl": "https://cryptoadvertising.net/agents",
+    "remotes": [
+        {
+            "type": "streamable-http",
+            "url": "https://cryptoadvertising.net/mcp"
+        }
+    ]
+}

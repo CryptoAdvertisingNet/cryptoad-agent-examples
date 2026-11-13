@@ -1,0 +1,21 @@
+{
+  "name": "cryptoad-agent-examples",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Examples for buying crypto advertising from CryptoAd Network with an AI agent: HTTP API, x402 payments and MCP.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "formats": "node examples/01-formats-and-quote.mjs",
+    "credit": "node examples/02-buy-credit.mjs",
+    "ad": "node examples/03-place-ad.mjs",
+    "status": "node examples/04-check-ad.mjs",
+    "mcp": "node examples/05-mcp.mjs"
+  },
+  "dependencies": {
+    "@x402/evm": "2.30.0",
+    "@x402/fetch": "2.30.0",
+    "viem": "2.57.16"
+  }
+}
